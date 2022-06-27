@@ -2,10 +2,6 @@ package com.javarush.task.pro.task11.task1113;
 
 /* 
 Следим за скобками
-Кажется, у нас есть лишняя скобка? Или одной не хватает? Разберись-ка с этой проблемой.
-
-Requirements:
-1. В методе main класса Solution нужно исправить ошибки компиляции.
 */
 
 public class Solution {

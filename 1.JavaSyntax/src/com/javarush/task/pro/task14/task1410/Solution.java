@@ -5,13 +5,6 @@ import java.nio.file.FileSystemException;
 
 /* 
 Оборачивание исключений
-В методе copyFile перехвати исключения, которые бросают методы readFile и writeFile.
-Перехваченные исключения оберни в RuntimeException и пробрось дальше.
-
-Requirements:
-1. В методе copyFile должны перехватываться FileNotFoundException и FileSystemException.
-2. Все перехваченные исключения нужно оборачивать в RuntimeException и пробрасывать дальше.
-3. У метода copyFile не должно быть исключений в секции throws.
 */
 
 public class Solution {

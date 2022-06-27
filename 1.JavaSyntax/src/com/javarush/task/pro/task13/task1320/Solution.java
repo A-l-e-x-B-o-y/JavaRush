@@ -2,12 +2,6 @@ package com.javarush.task.pro.task13.task1320;
 
 /*
 Из if в switch
-    В классе Solution есть метод getMonthByIndex(int), который возвращает название месяца по его номеру, начиная с 1.
-    Твоя задача — переписать метод, используя только оператор switch и ключевые слова case, break.
-
-    Requirements:
-    1. Метод getMonthByIndex(int) должен возвращать имя месяца по его номеру.
-    2. В методе getMonthByIndex(int) должен использоваться только оператор множественного выбора switch.
 */
 
 public class Solution {

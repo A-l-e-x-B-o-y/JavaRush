@@ -6,16 +6,6 @@ import java.util.stream.Collectors;
 
 /* 
 Лонг дринк
-При запуске программа заканчивается исключением. Но из текста исключения в консоли неясно, где оно возникло. В этой задаче тебе нужно:
-
-обернуть в try-catch код методов addIce, addVodka, addJuice и addOrange;
-в блоках catch вызвать метод printBugMethodName и передать в него stack trace.
-Если сделаешь все правильно, при запуске программы на экран выведутся имена методов, в которых возникает исключение.
-
-Requirements:
-1. Нужно обернуть в try-catch код методов addIce, addVodka, addJuice и addOrange.
-2. В методах addIce, addVodka, addJuice и addOrange в блоках catch нужно разместить одну команду - вызов метода printBugMethodName.
-3. При каждом вызове метода printBugMethodName в него нужно передать текущий stack trace.
 */
 
 public class Solution {

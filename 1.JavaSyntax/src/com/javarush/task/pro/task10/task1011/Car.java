@@ -1,22 +1,7 @@
 package com.javarush.task.pro.task10.task1011;
 
-import java.util.Objects;
-
-/* 
+/*
 Создаем свой hashCode
-Напиши свою реализацию hashCode, используя переменные model и year. Если эти поля у двух объектов одинаковые, то должен
-возвращаться одинаковый hashCode. Если правильно реализовать метод hashCode, вывод должен быть таким:
-true
-true
-true
-true
-false
-false
-
-Requirements:
-1. Нельзя изменять метод main.
-2. В классе Car должен быть переопределен метод int hashCode().
-3. Реализуй метод hashCode так, что бы результат работы программы соответствовал условию.
 */
 
 public class Car {

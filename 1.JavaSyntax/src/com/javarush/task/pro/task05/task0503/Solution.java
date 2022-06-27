@@ -2,10 +2,6 @@ package com.javarush.task.pro.task05.task0503;
 
 /* 
 Работаем с элементами массива
-Реализуй метод main(String[]), который меняет знак элемента массива array на противоположный, если значение этого элемента чётное.
-
-Requirements:
-1. Реализуй метод main(String[]) согласно условию.
 */
 
 public class Solution {

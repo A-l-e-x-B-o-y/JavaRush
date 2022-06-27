@@ -4,12 +4,6 @@ import java.util.Arrays;
 
 /* 
 Сравнение двумерных массивов
-Исправь работу метода main(String[]), который выводит в консоли true, если arrayFirst равняется arraySecond, иначе — false.
-
-
-Requirements:
-1. Если arrayFirst равняется arraySecond, то метод main(String[]) выводит в консоли true.
-2. Если arrayFirst не равняется arraySecond, то метод main(String[]) выводит в консоли false.
 */
 
 public class Solution {

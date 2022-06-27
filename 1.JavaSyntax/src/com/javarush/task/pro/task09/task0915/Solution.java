@@ -5,18 +5,6 @@ import java.util.StringTokenizer;
 
 /* 
 StringTokenizer
-Используя StringTokenizer раздели query на части по разделителю delimiter.
-
-Пример:
-getTokens("java.util.stream", "\\.")
-возвращает массив строк
-{"java", "util", "stream"}
-
-Hint: решить задачу поможет метод countTokens().
-
-Requirements:
-1. Нужно, чтобы метод getTokens(String, String) использовал StringTokenizer.
-2. Нужно, чтобы метод getTokens(String, String) возвращал массив типа String, заполненный согласно условию задачи.
 */
 
 public class Solution {

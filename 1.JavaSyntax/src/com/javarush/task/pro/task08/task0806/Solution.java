@@ -2,11 +2,6 @@ package com.javarush.task.pro.task08.task0806;
 
 /*
 Импорты: Part 1
-В классе Solution замени все короткие имена классов в коде на полные.
-
-Requirements:
-1. В методе main должны быть только полные имена классов: остальное менять нельзя.
-2. В классе Solution не должно быть импортов.
 */
 
 public class Solution {

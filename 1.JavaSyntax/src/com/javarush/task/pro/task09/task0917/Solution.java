@@ -2,14 +2,6 @@ package com.javarush.task.pro.task09.task0917;
 
 /* 
 String pool
-Метод equal(String, String) сравнивает строки по ссылке, используя оператор ==.
-Нужно сделать так, чтобы метод возвращал true, если содержимое строк одинаковое, и false — если разное, не используя метод equals().
-
-Requirements:
-1. Нужно, чтобы в методе equal(String, String) строки сравнивались по содержимому, но используя оператор ==.
-2. Нужно, чтобы метод equal(String, String) возвращал true, если строки одинаковые.
-3. Нужно, чтобы метод equal(String, String) возвращал false, если строки разные.
-4. Метод equals() использовать нельзя.
 */
 
 public class Solution {

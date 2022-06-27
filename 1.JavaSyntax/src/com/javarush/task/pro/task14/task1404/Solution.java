@@ -6,16 +6,6 @@ import java.util.Scanner;
 
 /* 
 Помощник преподавателя-3
-Программа считывает с консоли номер, находит в журнале соответствующего студента и вызывает его отвечать.
-Методы parseInt и get могут бросать исключения NumberFormatException и ArrayIndexOutOfBoundsException. Оберни их одним блоком try с двумя блоками catch.
-Блок catch для NumberFormatException должен выводить сообщение: "Нужно ввести целое число", а блок catch для ArrayIndexOutOfBoundsException должен выводить сообщение:
-"Студента с таким номером не существует".
-
-Requirements:
-1. Программа должна продолжить работу при возникновении NumberFormatException.
-2. Программа должна выводить сообщение: "Нужно ввести целое число" каждый раз при возникновении NumberFormatException.
-3. Программа должна продолжить работу при возникновении ArrayIndexOutOfBoundsException.
-4. Программа должна выводить сообщение: "Студента с таким номером не существует" каждый раз при возникновении ArrayIndexOutOfBoundsException.
 */
 
 public class Solution {

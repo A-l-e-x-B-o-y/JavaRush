@@ -2,12 +2,6 @@ package com.javarush.task.pro.task14.task1416;
 
 /* 
 Логирование стектрейса
-В методе main перехвати исключение и выведи его стектрейс.
-
-Requirements:
-1. Метод main должен вызывать метод dangerousMethod.
-2. Метод dangerousMethod должен бросать Exception.
-3. Метод main должен выводить на экран стектрейс перехваченного исключения.
 */
 
 public class Solution {

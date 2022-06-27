@@ -5,10 +5,6 @@ import java.util.Arrays;
 
 /* 
 Прощай, Паскаль
-В методе main найди и удали язык программирования Pascal из списка programmingLanguages.
-
-Requirements:
-1. В методе main должен удаляться Pascal из списка programmingLanguages.
 */
 
 public class Solution {

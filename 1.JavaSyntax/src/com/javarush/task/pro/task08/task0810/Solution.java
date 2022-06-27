@@ -4,11 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 /* 
 Таймер
-В классе Solution реализуй метод setTimer(int, int, int, int, int), который засыпает на определенное время, используя
-соответствующие методы java.util.concurrent.TimeUnit.
-
-Requirements:
-1. Метод setTimer(int, int, int, int, int) должен быть реализован согласно условию.
 */
 
 public class Solution {

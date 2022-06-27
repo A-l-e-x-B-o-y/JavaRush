@@ -6,12 +6,6 @@ import java.util.HashSet;
 
 /* 
 ArrayList vs HashMap
-В классе Solution есть метод getProgrammingLanguages, который возвращает список языков программирования.
-Тебе нужно переписать этот метод, чтобы он возвращал HashMap<Integer, String>. Ключом в этой коллекции будет индекс элемента в ArrayList.
-
-Requirements:
-1. В классе Solution должен быть публичный статический метод getProgrammingLanguages с типом возвращаемого значения HashMap<Integer, String>.
-2. Метод getProgrammingLanguages() должен возвращать HashMap заполненным в соответствии с списком.
 */
 
 public class Solution {

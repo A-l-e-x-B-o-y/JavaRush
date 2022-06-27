@@ -2,10 +2,6 @@ package com.javarush.task.pro.task14.task1412;
 
 /* 
 Группировка исключений
-Объедини блоки catch с одинаковым кодом.
-
-Requirements:
-1. Количество блоков catch должно быть минимальным.
 */
 
 public class Solution {

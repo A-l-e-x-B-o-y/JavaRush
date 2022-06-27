@@ -2,14 +2,6 @@ package com.javarush.task.pro.task12.task1206;
 
 /* 
 Анализ строк
-Реализуй методы countDigits(String), countLetters(String), countSpaces(String), которые должны возвращать количество цифр, букв и пробелов в строке.
-Метод main не принимает участия в проверке.
-
-
-Requirements:
-1. Метод countDigits(String) должен возвращать количество цифр в переданной строке.
-2. Метод countLetters(String) должен возвращать количество букв в переданной строке.
-3. Метод countSpaces(String) должен возвращать количество пробелов в переданной строке.
 */
 
 public class Solution {

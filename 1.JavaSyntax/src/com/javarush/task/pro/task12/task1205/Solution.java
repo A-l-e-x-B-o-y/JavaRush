@@ -2,30 +2,6 @@ package com.javarush.task.pro.task12.task1205;
 
 /* 
 Метод деления
-Реализуй метод divide(double a, double b) так, чтобы в консоли выводился результат деления числа a на число b.
-Должно выводиться следующее значение:
-Double.POSITIVE_INFINITY, если верен любой из следующих пунктов:
-a положительное и b равно 0;
-a равно Double.POSITIVE_INFINITY и b >= 0 и b не равно Double.POSITIVE_INFINITY;
-a равно Double.NEGATIVE_INFINITY и b < 0 и b не равно Double.NEGATIVE_INFINITY;
-Double.NEGATIVE_INFINITY, если верен любой из следующих пунктов:
-a отрицательное и b равно 0;
-a равно Double.NEGATIVE_INFINITY и b >= 0 и b не равно Double.POSITIVE_INFINITY;
-a равно Double.POSITIVE_INFINITY и b < 0 и b не равно Double.NEGATIVE_INFINITY;
-Double.NaN, если верен любой из следующих пунктов:
-a равно 0 и b равно 0;
-хотя бы один из операндов равен Double.NaN;
-a равно Double.POSITIVE_INFINITY и b равно Double.POSITIVE_INFINITY;
-a равно Double.POSITIVE_INFINITY и b равно Double.NEGATIVE_INFINITY;
-a равно Double.NEGATIVE_INFINITY и b равно Double.POSITIVE_INFINITY;
-a равно Double.NEGATIVE_INFINITY и b равно Double.NEGATIVE_INFINITY;
-Иначе выводить результат деления a на b.
-
-Requirements:
-1. Метод divide(double a, double b) должен выводить в консоли результат деления числа a на число b.
-2. Метод divide(double a, double b) должен выводить в консоли "Infinity" согласно пункту 1 условия.
-3. Метод divide(double a, double b) должен выводить в консоли "-Infinity"согласно пункту 2 условия.
-4. Метод divide(double a, double b) должен выводить в консоли "NaN" согласно пункту 3 условия.
 */
 
 public class Solution {

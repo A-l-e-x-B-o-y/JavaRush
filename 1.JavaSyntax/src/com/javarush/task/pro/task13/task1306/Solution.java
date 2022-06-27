@@ -5,17 +5,6 @@ import java.util.Collections;
 
 /* 
 Изучаем методы класса Collections, часть 1
-В классе Solution объявлены методы: copy(ArrayList<String>, ArrayList<String>), addAll(ArrayList<String>, String...),
-replaceAll(ArrayList<String>, String, String). Тебе нужно переписать их реализацию, используя при этом только соответствующие методы класса Collections.
-Параметр String... означает то же, что и String[], только аргументы String можно передавать через запятую.
-
-Requirements:
-1. В классе Solution должен быть публичный статический метод copy(ArrayList<String>, ArrayList<String>) с типом возвращаемого значения void.
-2. В классе Solution должен быть публичный статический метод addAll(ArrayList<String>, String...) с типом возвращаемого значения void.
-3. В классе Solution должен быть публичный статический метод replaceAll(ArrayList<String>, String, String) с типом возвращаемого значения void.
-4. Метод copy(ArrayList<String>, ArrayList<String>) нужно переписать, используя метод copy класса Collections.
-5. Метод addAll(ArrayList<String>, String...) нужно переписать, используя метод addAll класса Collections.
-6. Метод replaceAll(ArrayList<String>, String, String) нужно переписать, используя метод replaceAll класса Collections.
 */
 
 public class Solution {

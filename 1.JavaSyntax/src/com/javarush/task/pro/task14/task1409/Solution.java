@@ -2,13 +2,6 @@ package com.javarush.task.pro.task14.task1409;
 
 /* 
 Пропускаем сквозь себя
-Сделай так, чтобы программа компилировалась, не используя try-catch.
-
-Requirements:
-1. В методе main не должно быть блока try-catch.
-2. Метод main должен бросать исключение.
-3. Метод main должен вызывать метод generateLuckyNumber().
-4. Метод generateLuckyNumber изменять нельзя.
 */
 
 public class Solution {

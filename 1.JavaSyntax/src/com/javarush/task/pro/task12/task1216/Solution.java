@@ -6,17 +6,6 @@ import java.util.ArrayList;
 
 /* 
 Вперед в будущее
-В классе Solution есть поля number, string и метод main с объявленными в нем переменными. Тебе нужно заменить объявления
-переменных на var, где это возможно. Порядок следования переменных не должен меняться.
-
-Пример:
-Scanner console = new Scanner(System.in);
-Заменить на:
-var console = new Scanner(System.in);
-
-Requirements:
-1. Замени типы переменных на var, где это возможно.
-2. Не изменяй правую часть выражений.
 */
 
 public class Solution {

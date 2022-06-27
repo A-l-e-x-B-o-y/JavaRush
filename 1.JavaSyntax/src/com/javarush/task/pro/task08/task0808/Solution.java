@@ -2,11 +2,6 @@ package com.javarush.task.pro.task08.task0808;
 
 /* 
 Обратный отсчет
-В классе Solution в методе countDown() происходит обратный отсчет. Тебе нужно сделать так, чтобы между выводом текста в
-консоль была пауза в 1 секунду. В этом тебе поможет метод sleep(long) класса Thread.
-
-Requirements:
-1. Реализуй метод countDown() согласно условию.
 */
 
 public class Solution {

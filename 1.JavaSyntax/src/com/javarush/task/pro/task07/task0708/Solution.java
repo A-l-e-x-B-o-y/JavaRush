@@ -2,13 +2,6 @@ package com.javarush.task.pro.task07.task0708;
 
 /* 
 Правильные типы
-Реализуй метод setValues(long value), чтобы он устанавливал полученное значение параметра value переменным a, b, c и d.
-Изменять типы переменных a, b, c и d нельзя.
-
-
-Requirements:
-1. Типы переменных a, b, c и d не должны измениться.
-2. Метод setValues(long value) должен устанавливать полученное значение переменным a, b, c и d.
 */
 
 public class Solution {

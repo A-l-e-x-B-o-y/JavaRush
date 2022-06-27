@@ -6,21 +6,6 @@ import java.util.Locale;
 
 /* 
 Найти и обезвредить
-В классе Solution объявлены методы, которые тебе нужно реализовать следующим образом:
-
-removeBugWithFor(ArrayList<String>) - должен удалить строку из списка, если она содержит слово bug, используя цикл for и счетчик.
-removeBugWithWhile(ArrayList<String>) - должен удалить строку из списка, если она содержит слово bug, используя цикл while и метод iterator().
-removeBugWithCopy(ArrayList<String>) - должен удалить строку из списка, если она содержит слово bug, используя цикл for-each и копию списка.
-В слове bug может быть разный регистр букв (BUg, BuG, и т.д.).
-Метод main реализован для вашего кода и не участвует в проверке.
-
-Requirements:
-1. В классе Solution должен быть публичный статический метод removeBugWithFor(ArrayList<String>) с типом возвращаемого значения void.
-2. В классе Solution должен быть публичный статический метод removeBugWithWhile(ArrayList<String>) с типом возвращаемого значения void.
-3. В классе Solution должен быть публичный статический метод removeBugWithCopy(ArrayList<String>) с типом возвращаемого значения void.
-4. Метод removeBugWithFor(ArrayList<String>) должен работать согласно условию.
-5. Метод removeBugWithWhile(ArrayList<String>) должен работать согласно условию.
-6. Метод removeBugWithCopy(ArrayList<String>) должен работать согласно условию.
 */
 
 public class Solution {

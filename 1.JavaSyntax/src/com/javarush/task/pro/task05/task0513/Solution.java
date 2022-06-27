@@ -4,14 +4,6 @@ import java.util.Arrays;
 
 /* 
 Выводим массивы
-Реализуй метод main(String[]), который выводит массивы strings и ints в консоли с помощью метода Arrays.toString().
-
-
-Requirements:
-1. В классе Solution должна быть публичная статическая переменная strings типа String[].
-2. В классе Solution должна быть публичная статическая переменная ints типа int[].
-3. В методе main(String[]) выведи в консоли массив strings с помощью метода Arrays.toString(Object[]).
-4. В методе main(String[]) выведи в консоли массив ints с помощью метода Arrays.toString(int[]).
 */
 
 public class Solution {

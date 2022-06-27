@@ -1,17 +1,9 @@
 package com.javarush.task.pro.task13.task1301;
 
-import java.util.Collections;
 import java.util.HashSet;
 
 /* 
 Оформляем возврат
-В классе Solution есть метод arrayToHashSet(String[]), который должен из переданного массива вернуть HashSet<String> с теми же элементами.
-Метод main не участвует в проверке.
-
-
-Requirements:
-1. В классе Solution должен быть public static HashSet<String> arrayToHashSet(String[]) метод.
-2. Метод arrayToHashSet(String[]) должен быть реализован согласно условию.
 */
 
 public class Solution {

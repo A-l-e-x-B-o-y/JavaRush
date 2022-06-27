@@ -4,21 +4,6 @@ import java.util.ArrayList;
 
 /* 
 Охотники за привидением: в погоне за типами
-В методе main создается и заполняется список разными объектами и передается методу checkElementType(ArrayList<Object>).
-Твоя задача — реализовать этот метод, который должен определить тип каждого элемента списка, а также:
-
-Для типа String вызывать printString();
-Для типа Integer вызывать printInteger();
-Для типа Integer[] вызывать printIntegerArray();
-Для всех остальных типов вызывать printUnknown().
-Метод main не участвует в проверке.
-
-Requirements:
-1. Не изменять объявление и реализацию метода printString(String).
-2. Не изменять объявление и реализацию метода printInteger(Integer).
-3. Не изменять объявление и реализацию метода printIntegerArray(Integer[]).
-4. Не изменять объявление и реализацию метода printUnknown(Object).
-5. Метод checkElementType(ArrayList<Object>) должен работать согласно условию.
 */
 
 public class Solution {

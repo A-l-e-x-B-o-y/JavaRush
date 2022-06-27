@@ -2,12 +2,6 @@ package com.javarush.task.pro.task13.task1322;
 
 /*
 Типы многоугольников
-    В классе Solution есть метод getShapeNameByCountOfCorners(int), который возвращает название многоугольника в зависимости
-    от количества углов. Твоя задача — переписать метод, используя только оператор switch.
-
-    Requirements:
-    1. Результат работы метода getShapeNameByCountOfCorners(int) не должен измениться.
-    2. В методе getShapeNameByCountOfCorners(int) должен использоваться только оператор switch.
 */
 
 public class Solution {

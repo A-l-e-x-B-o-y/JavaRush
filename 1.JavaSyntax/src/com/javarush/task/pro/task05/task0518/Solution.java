@@ -4,12 +4,6 @@ import java.util.Arrays;
 
 /* 
 Сортировка массива
-Реализуй метод main(String[]), который сортирует массив array по возрастанию.
-Для сортировки массива используй метод Arrays.sort(int[]).
-
-
-Requirements:
-1. Реализуй метод main(String[]) согласно условию.
 */
 
 public class Solution {

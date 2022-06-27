@@ -2,12 +2,6 @@ package com.javarush.task.pro.task05.task0512;
 
 /* 
 Создаем мультимассив
-В методе main(String[]) выведи на экран все числа из трехмерного массива multiArray.
-
-
-Requirements:
-1. В классе Solution должна быть публичная статическая переменная multiArray типа int[][][].
-2. В методе main(String[]) выведи на экран все числа из multiArray.
 */
 
 public class Solution {
