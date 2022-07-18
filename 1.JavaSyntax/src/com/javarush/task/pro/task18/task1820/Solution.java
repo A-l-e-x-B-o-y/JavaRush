@@ -1,5 +1,6 @@
 package com.javarush.task.pro.task18.task1820;
 
+import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -32,12 +33,14 @@ public class Solution {
     }
 
     public static Optional<Car> getMostExpensiveCar(Stream<Car> cars) {
-        return Optional.of(cars.max((car1, car2) -> car1.getPrice() - car2.getPrice()).get());
+        //return Optional.of(cars.max((car1, car2) -> car1.getPrice() - car2.getPrice()).get());
+        return cars.max(Comparator.comparing(Car::getPrice));
     }
 
     public static Optional<Car> getMoreExpensiveCar(Stream<Car> cars, Car mostExpensiveCar) {
-        Stream<Car> moreExpensiveCar = cars.filter(car -> (car.getPrice() > mostExpensiveCar.getPrice()));
-        return Optional.of(moreExpensiveCar.findFirst().get());
+        /*Stream<Car> moreExpensiveCar = cars.filter(car -> (car.getPrice() > mostExpensiveCar.getPrice()));
+        return Optional.of(moreExpensiveCar.findFirst().get());*/
+        return cars.filter(car -> car.getPrice() > mostExpensiveCar.getPrice()).findFirst();
     }
 }
 
