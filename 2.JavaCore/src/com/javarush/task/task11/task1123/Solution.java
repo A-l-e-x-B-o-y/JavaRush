@@ -2,7 +2,6 @@ package com.javarush.task.task11.task1123;
 
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Solution {
     public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class Solution {
             return new Pair(null, null);
         }
 
-        return new Pair(3, 5); //(Arrays.stream(inputArray).min(Comparator.comparing(obj -> )), inputArray[inputArray.length-1]);
+        return new Pair(Arrays.stream(inputArray).min().getAsInt(), Arrays.stream(inputArray).max().getAsInt());
     }
 
     public static class Pair {
