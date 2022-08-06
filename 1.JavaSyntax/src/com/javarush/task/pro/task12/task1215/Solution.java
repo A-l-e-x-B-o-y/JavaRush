@@ -38,9 +38,8 @@ public class Solution {
     public static void removeGlassesReverse(ArrayList<String> glasses) throws InterruptedException {
         System.out.println("Начинаем разбирать пирамиду...");
 
-        for (int i = 0; i < glasses.size(); i++) {
-            glasses.remove(0);
-            i--;
+        for (int i = glasses.size()-1; i >= 0; i--) {
+            glasses.remove(i);
         }
         
         if(glasses.size() == 0) {
