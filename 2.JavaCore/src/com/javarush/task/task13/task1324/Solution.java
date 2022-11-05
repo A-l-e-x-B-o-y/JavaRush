@@ -1,4 +1,4 @@
-package com.javarush.task.task13.task1321.task1324;
+package com.javarush.task.task13.task1324;
 
 import java.awt.*;
 

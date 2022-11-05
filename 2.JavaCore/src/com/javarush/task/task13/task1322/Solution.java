@@ -1,4 +1,4 @@
-package com.javarush.task.task13.task1320.task1322;
+package com.javarush.task.task13.task1322;
 
 /* 
 Интерфейс SimpleObject
